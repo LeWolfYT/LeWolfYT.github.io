@@ -4,4 +4,5 @@ function bee() {
   alert("there is no way a bee should be able to fly.");
   alert("Its wings are too small to get its fat little body off the ground.");
   alert("The bee, of course, flies anyway");
+  console.log("e")
 }
