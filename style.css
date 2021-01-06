@@ -7,8 +7,8 @@ html {
   background-size: cover;
   background-repeat:no-repeat;
   background: rgb(0,159,238);
-  background: -moz-linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%);
-  background: -webkit-linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%);
-  background: linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%);
+  background: -moz-linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%) fixed;
+  background: -webkit-linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%) fixed;
+  background: linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%) fixed;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#009fee",endColorstr="#ee9f00",GradientType=1);
 }
