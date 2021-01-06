@@ -1,7 +1,12 @@
 html {
-background: rgb(0,159,238);
-background: -moz-linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%);
-background: -webkit-linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%);
-background: linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#009fee",endColorstr="#ee9f00",GradientType=1);
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: rgb(0,159,238);
+  background: -moz-linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%);
+  background: linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#009fee",endColorstr="#ee9f00",GradientType=1);
 }
