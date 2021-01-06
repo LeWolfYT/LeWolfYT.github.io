@@ -5,6 +5,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-repeat:no-repeat;
   background: rgb(0,159,238);
   background: -moz-linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%);
   background: -webkit-linear-gradient(0deg, rgba(0,159,238,1) 0%, rgba(238,159,0,1) 100%);
