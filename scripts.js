@@ -1,4 +1,5 @@
 console.log("Hi!!!1!!!! i love coding");
+alert("Welcome to the website! I hope you have a great time here!")
 function bee() {
   alert("According to all known laws of aviation,");
   alert("there is no way a bee should be able to fly.");
