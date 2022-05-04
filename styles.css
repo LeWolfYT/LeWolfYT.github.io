@@ -3,4 +3,25 @@ html {
   background: -moz-linear-gradient(to top, #ee9f00, #009fee) fixed;
   background: -webkit-linear-gradient(to top, #ee9f00, #009fee) fixed;
   background: linear-gradient(to top, #ee9f00, #009fee) fixed;
+};
+
+@font-face {
+  font-family: "VCR Mono";
+  src: url("./VCR_OSD_MONO.woff") format("woff");
+};
+
+h1 {
+  font-fanily: "VCR Mono", sans-serif;
+};
+
+h2 {
+  font-fanily: "VCR Mono", sans-serif;
+};
+
+h3 {
+  font-fanily: "VCR Mono", sans-serif;
+};
+
+p {
+  font-fanily: "VCR Mono", sans-serif;
 }
