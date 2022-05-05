@@ -4,6 +4,6 @@ function bee() {
   alert('Its wings are too small to get its fat little body off the ground.');
   alert('The bee, of course, flies anyway');
 }
-function dark() {
+function jazz() {
   alert('I finally updated this website after 16 months!')
 }
