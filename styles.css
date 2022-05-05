@@ -7,7 +7,8 @@ html {
 
 @font-face {
   font-family: "VCR Mono";
-  src: url("./VCR_OSD_MONO.woff") format("woff");
+  src: url("https://lewolfyt.github.io/VCR_OSD_MONO.woff2") format("woff2"),
+       url("https://lewolfyt.github.io/VCR_OSD_MONO.woff") format("woff")
 };
 
 h1 {
