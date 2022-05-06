@@ -6,22 +6,22 @@ html {
 };
 
 @font-face {
-  font-family: "VCR Mono";
+  font-family: "VCRMono";
   src: url("https://github.com/LeWolfYT/LeWolfYT.github.io/blob/69813c59386b17861cfef83257c46eba7dbddef3/VCR_OSD_MONO.woff")
 };
 
 h1 {
-  font-fanily: "VCR Mono", sans-serif;
+  font-fanily: "VCRMono", sans-serif;
 };
 
 h2 {
-  font-fanily: "VCR Mono", sans-serif;
+  font-fanily: "VCRMono", sans-serif;
 };
 
 h3 {
-  font-fanily: "VCR Mono", sans-serif;
+  font-fanily: "VCRMono", sans-serif;
 };
 
 p {
-  font-fanily: "VCR Mono", sans-serif;
+  font-fanily: "VCRMono", sans-serif;
 }
