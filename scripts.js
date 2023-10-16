@@ -5,5 +5,5 @@ function bee() {
   alert('The bee, of course, flies anyway');
 }
 function jazz() {
-  alert('I finally updated this website after 16 months!')
+  alert('Hello again! There\'s a new button. Click it and check out Piskel4All, Piskel for mobile and much more!')
 }
