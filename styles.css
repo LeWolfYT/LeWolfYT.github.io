@@ -22,3 +22,7 @@ h3 {
 p {
   font-fanily: "VCRMono", sans-serif;
 }
+
+.fx {
+  position: fixed;
+}
