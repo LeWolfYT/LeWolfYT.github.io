@@ -25,8 +25,10 @@ p {
 
 .fx {
   position: fixed;
+  width: 100%;
 }
 
 .nfx {
-  margin-top: 50px;
+  position: absolute;
+  top: 50px;
 }
