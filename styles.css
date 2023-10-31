@@ -31,4 +31,5 @@ p {
 .nfx {
   position: static;
   top: 50px;
+  width: 100%;
 }
