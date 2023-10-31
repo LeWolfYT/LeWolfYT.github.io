@@ -24,11 +24,11 @@ p {
 }
 
 .fx {
-  position: fixed;
+  position: sticky;
   width: 100%;
 }
 
 .nfx {
-  position: absolute;
+  position: static;
   top: 50px;
 }
