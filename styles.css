@@ -26,3 +26,7 @@ p {
 .fx {
   position: fixed;
 }
+
+.nfx {
+  top: 50px;
+}
