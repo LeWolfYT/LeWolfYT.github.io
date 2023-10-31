@@ -1,5 +1,5 @@
 html {
-  background-image: "https://LeWolfYT.github.io/bg.png";
+  background-image: url("/bg.png");
 };
 
 @font-face {
