@@ -17,16 +17,17 @@ var pjs = "PJ\'S ROOM!"
 var tx = ""
 for (let i=0; i < pjs.length; i++) {
   tx += pjs[i]
-  await sleep(500);
+  await sleep(250);
   document.title = tx;
 }
-await sleep(500);
+await sleep(250);
 document.title = pjs;
-for (let i=pjs.length; i > 0; i--) {
+await sleep(5000);
+for (let i=pjs.length; i > -1; i--) {
   tx = tx.slice(0, -2);
-  await sleep(500);
+  await sleep(250);
   document.title = tx;
 }
 }
-
-setInterval(ok, 14000)
+setInterval(ok, 9500);
+ok();
