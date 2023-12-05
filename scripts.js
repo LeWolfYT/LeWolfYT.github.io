@@ -13,27 +13,17 @@ function sleep(ms) {
 
 document.title = "";
 function ok() {
-sleep(500).then(() => {document.title = "P";});
-sleep(500).then(() => {document.title = "PJ";});
-sleep(500).then(() => {document.title = "PJ\'";});
-sleep(500).then(() => {document.title = "PJ\'S";});
-sleep(500).then(() => {document.title = "PJ\'S ";});
-sleep(500).then(() => {document.title = "PJ\'S R";});
-sleep(500).then(() => {document.title = "PJ\'S RO";});
-sleep(500).then(() => {document.title = "PJ\'S ROO";});
-sleep(500).then(() => {document.title = "PJ\'S ROOM";});
-sleep(500).then(() => {document.title = "PJ\'S ROOM!";});
-sleep(5000).then(() => {document.title = "PJ\'S ROOM";});
-sleep(500).then(() => {document.title = "PJ\'S ROOM";});
-sleep(500).then(() => {document.title = "PJ\'S ROO";});
-sleep(500).then(() => {document.title = "PJ\'S RO";});
-sleep(500).then(() => {document.title = "PJ\'S R";});
-sleep(500).then(() => {document.title = "PJ\'S ";});
-sleep(500).then(() => {document.title = "PJ\'S";});
-sleep(500).then(() => {document.title = "PJ\'";});
-sleep(500).then(() => {document.title = "PJ";});
-sleep(500).then(() => {document.title = "P";});
-sleep(500).then(() => {document.title = "";});
+var pjs = "PJ\'S ROOM!"
+var tx = ""
+for (let i=0; i < pjs.length; i++) {
+  tx += pjs[i]
+  sleep(500).then(() => {document.title = tx;});
+}
+sleep(5000).then(() => {document.title = pjs;});
+for (let i=pjs.length; i > 0; i--) {
+  tx.pop()
+  sleep(500).then(() => {document.title = tx;});
+}
 }
 
 setInterval(ok, 14000)
