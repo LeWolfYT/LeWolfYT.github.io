@@ -8,7 +8,7 @@ function jazz() {
   alert('Hello again! There\'s a new button. Click it and check out Piskel4All, Piskel for mobile and much more!')
 }
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 document.title = "";
