@@ -13,26 +13,27 @@ function sleep(ms) {
 
 document.title = "";
 function ok() {
-sleep(100).then(() => {document.title = "P";});
-sleep(100).then(() => {document.title = "PJ";});
-sleep(100).then(() => {document.title = "PJ\'";});
-sleep(100).then(() => {document.title = "PJ\'S";});
-sleep(100).then(() => {document.title = "PJ\'S ";});
-sleep(100).then(() => {document.title = "PJ\'S R";});
-sleep(100).then(() => {document.title = "PJ\'S RO";});
-sleep(100).then(() => {document.title = "PJ\'S ROO";});
-sleep(100).then(() => {document.title = "PJ\'S ROOM";});
-sleep(100).then(() => {document.title = "PJ\'S ROOM!";});
-sleep(2000).then(() => {document.title = "PJ\'S ROOM";});
-sleep(100).then(() => {document.title = "PJ\'S ROOM";});
-sleep(100).then(() => {document.title = "PJ\'S ROO";});
-sleep(100).then(() => {document.title = "PJ\'S RO";});
-sleep(100).then(() => {document.title = "PJ\'S R";});
-sleep(100).then(() => {document.title = "PJ\'S ";});
-sleep(100).then(() => {document.title = "PJ\'S";});
-sleep(100).then(() => {document.title = "PJ\'";});
-sleep(100).then(() => {document.title = "PJ";});
-sleep(100).then(() => {document.title = "P";});
-sleep(100).then(() => {document.title = "";});
-ok();
+sleep(500).then(() => {document.title = "P";});
+sleep(500).then(() => {document.title = "PJ";});
+sleep(500).then(() => {document.title = "PJ\'";});
+sleep(500).then(() => {document.title = "PJ\'S";});
+sleep(500).then(() => {document.title = "PJ\'S ";});
+sleep(500).then(() => {document.title = "PJ\'S R";});
+sleep(500).then(() => {document.title = "PJ\'S RO";});
+sleep(500).then(() => {document.title = "PJ\'S ROO";});
+sleep(500).then(() => {document.title = "PJ\'S ROOM";});
+sleep(500).then(() => {document.title = "PJ\'S ROOM!";});
+sleep(5000).then(() => {document.title = "PJ\'S ROOM";});
+sleep(500).then(() => {document.title = "PJ\'S ROOM";});
+sleep(500).then(() => {document.title = "PJ\'S ROO";});
+sleep(500).then(() => {document.title = "PJ\'S RO";});
+sleep(500).then(() => {document.title = "PJ\'S R";});
+sleep(500).then(() => {document.title = "PJ\'S ";});
+sleep(500).then(() => {document.title = "PJ\'S";});
+sleep(500).then(() => {document.title = "PJ\'";});
+sleep(500).then(() => {document.title = "PJ";});
+sleep(500).then(() => {document.title = "P";});
+sleep(500).then(() => {document.title = "";});
 }
+
+setInterval(ok, 14000)
