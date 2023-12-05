@@ -29,5 +29,5 @@ for (let i=pjs.length; i > -1; i--) {
   document.title = "\u200E" + tx;
 }
 }
-setInterval(ok, 9500);
+setInterval(ok, 10000);
 ok();
