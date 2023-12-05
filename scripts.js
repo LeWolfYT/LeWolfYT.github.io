@@ -21,7 +21,7 @@ for (let i=0; i < pjs.length; i++) {
 }
 sleep(5000).then(() => {document.title = pjs;});
 for (let i=pjs.length; i > 0; i--) {
-  tx.pop()
+  tx.pop();
   sleep(500).then(() => {document.title = tx;});
 }
 }
