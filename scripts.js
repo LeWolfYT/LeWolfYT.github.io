@@ -13,7 +13,6 @@ function sleep(ms) {
 
 document.title = "";
 function ok() {
-while (true) {
 sleep(100).then(() => {document.title = "P";});
 sleep(100).then(() => {document.title = "PJ";});
 sleep(100).then(() => {document.title = "PJ\'";});
@@ -35,5 +34,5 @@ sleep(100).then(() => {document.title = "PJ\'";});
 sleep(100).then(() => {document.title = "PJ";});
 sleep(100).then(() => {document.title = "P";});
 sleep(100).then(() => {document.title = "";});
-}
+ok();
 }
