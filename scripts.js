@@ -17,12 +17,15 @@ var pjs = "PJ\'S ROOM!"
 var tx = ""
 for (let i=0; i < pjs.length; i++) {
   tx += pjs[i]
-  sleep(500).then(() => {document.title = tx;});
+  await sleep(500);
+  document.title = tx;
 }
-sleep(5000).then(() => {document.title = pjs;});
+await sleep(500);
+document.title = pjs;
 for (let i=pjs.length; i > 0; i--) {
   tx = tx.slice(0, -2);
-  sleep(500).then(() => {document.title = tx;});
+  await sleep(500);
+  document.title = tx;
 }
 }
 
