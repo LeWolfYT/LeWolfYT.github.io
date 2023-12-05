@@ -24,7 +24,7 @@ await sleep(250);
 document.title = pjs;
 await sleep(5000);
 for (let i=pjs.length; i > -1; i--) {
-  tx = tx.slice(0, -2);
+  tx = tx.slice(0, -1);
   await sleep(250);
   if (tx == "") {
     tx = " ";
