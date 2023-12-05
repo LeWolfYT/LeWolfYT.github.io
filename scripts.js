@@ -12,7 +12,7 @@ function sleep(ms) {
 }
 
 document.title = "";
-function ok() {
+async function ok() {
 var pjs = "PJ\'S ROOM!"
 var tx = ""
 for (let i=0; i < pjs.length; i++) {
