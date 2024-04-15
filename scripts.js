@@ -29,5 +29,6 @@ for (let i=pjs.length; i > -1; i--) {
   document.title = "\u200E" + tx;
 }
 }
+new Audio('https://github.com/LeWolfYT/LeWolfYT.github.io/raw/main/startrace.mp3').play();
 setInterval(ok, 10000);
 ok();
