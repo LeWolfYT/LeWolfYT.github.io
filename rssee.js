@@ -14,7 +14,7 @@ $.ajax({
 		var buffer = "";
 		//buffer = buffer + wrapHtml(rss.feed.title, "h1")
 		const items = rss.item;
-    const item = items[items.length-1]
+    const item = items[0]
 //		document.getElementById("ett").innerHTML = document.getElementById("ett").innerHTML + toString(rsse);
 
 		console.log(rss);
@@ -38,7 +38,7 @@ $.ajax({
 				"Published by " + item.author + " on " + localtime + " local time",
 				"small"
 			);
-			buffer = buffer + wrapHtml(wrapHtml(item.title + " [By " + item.author + " at " + localtime + "]", "summary") + wrapHtml(title + content + sub, "div"), "details", " title=\"" + item.guid + "\"")
+			buffer = buffer + wrapHtml(title + content + sub, "div")
 			count++;
 		
 		document.getElementById("news2").innerHTML = buffer;
