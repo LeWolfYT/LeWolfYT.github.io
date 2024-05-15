@@ -4,7 +4,7 @@ function wrapHtml(input, wrapper, extra = "") {
 
 $.ajax({
 	type: 'GET',
-	url: "feeds/rss.xml",
+	url: "https://lewolfyt.github.io/feeds/rss.xml",
 	crossDomain: true,
 	dataType: 'XML',
 	success: function (xml) {
