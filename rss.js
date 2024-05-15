@@ -23,9 +23,9 @@ $.ajax({
 		for (const item of items) {
 			if (count >= 20) break;
 			if (item.link == "" || item.link == null) {
-				var title = wrapHtml(item.title, "h2", " title=\"" + item.guid + "\"");
+				var title = wrapHtml(item.title, "big", " title=\"" + item.guid + "\"");
 			} else {
-				var title = wrapHtml(wrapHtml(item.title, "h2"), "a", " href=\"" + item.link + "\"");
+				var title = wrapHtml(wrapHtml(item.title, "big"), "a", " href=\"" + item.link + "\"");
 			}
 			var content = wrapHtml(item.description, "p");
 			var time = item.pubDate.substring(0, item.pubDate.length - 4);
