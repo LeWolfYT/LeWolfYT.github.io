@@ -14,7 +14,7 @@ $.ajax({
 		var buffer = "";
 		//buffer = buffer + wrapHtml(rss.feed.title, "h1")
 		const items = rss.item;
-		document.getElementById("ett").innerHTML = document.getElementById("ett").innerHTML + toString(rsse);
+//		document.getElementById("ett").innerHTML = document.getElementById("ett").innerHTML + toString(rsse);
 
 		console.log(rss);
 
