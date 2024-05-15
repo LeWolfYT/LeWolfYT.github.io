@@ -21,7 +21,6 @@ $.ajax({
 		var count = 0;
 
 		for (const item of items) {
-			if (count >= 20) break;
 			if (item.link == "" || item.link == null) {
 				var title = wrapHtml(item.title, "big", " title=\"" + item.guid + "\"");
 			} else {
