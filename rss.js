@@ -4,8 +4,8 @@ function wrapHtml(input, wrapper, extra = "") {
 
 $.ajax({
 	type: 'GET',
-	url: "feeds/rss.xml",
-	crossDomain: true,
+	url: "/feeds/rss.xml",
+	crossDomain: false,
 	dataType: 'XML',
 	success: function (xml) {
 		var x2js = new X2JS();
