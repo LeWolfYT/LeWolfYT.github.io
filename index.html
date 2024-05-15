@@ -4,7 +4,7 @@
       <script src="./scripts.js"></script>
 	    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 	    <script src="x2js.min.js"></script>
-	    
+	    <script>window.onerror = function(message, url, ln) {document.getElementById("ett").innerHTML = document.getElementById("ett").innerHTML + "Error on line " + toString(ln) + ": " + message + "<br>";};</script>
 
   <link
   rel="stylesheet"
@@ -88,7 +88,8 @@ hs.src = ('//s10.histats.com/js15_as.js');
 				<noscript>JavaScript is required to view the RSS feed.</noscript>
       
       <img src="./3dgifmaker83293.gif">
-  </body>
+  <div><p id="ett"></p></div>
+    </body>
     </div>
     </div>
 
