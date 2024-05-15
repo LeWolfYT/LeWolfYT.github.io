@@ -2,7 +2,9 @@
 <rss version="2.0">
 	<channel>
 		<title>PJ's Uber-Cool News Feed!</title>
-<item>
+<link>https://lewolfyt.github.io</link>
+		<description>Get news about PJ's projects and whereabouts.</description>
+		<item>
   <title>New RSS Feed!</title>
   <description>I've set up this new RSS feed that you can view with your own RSS reader! I'll post about projects and such that I'm work8nf on.</description>
   <pubDate>2024-05-14 00:17 UTC</pubDate>
