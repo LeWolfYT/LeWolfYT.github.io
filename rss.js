@@ -9,11 +9,12 @@ $.ajax({
 	dataType: 'XML',
 	success: function (xml) {
 		var x2js = new X2JS();
-		var rss = x2js.xml2json(xml).rss.channel;
+		var rsse = x2js.xml2json(xml).rss;
+		var rss = rss.channel;
 		var buffer = "";
 		//buffer = buffer + wrapHtml(rss.feed.title, "h1")
 		const items = rss.item;
-		document.getElementById("ett").innerHTML = document.getElementById("ett").innerHTML + toString(rss)
+		document.getElementById("ett").innerHTML = document.getElementById("ett").innerHTML + toString(rsse);
 
 		console.log(rss);
 
