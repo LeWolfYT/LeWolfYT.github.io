@@ -27,7 +27,7 @@ $.ajax({
 			} else {
 				var title = wrapHtml(wrapHtml(item.title, "h2"), "a", " href=\"" + item.link + "\"");
 			}
-			var content = wrapHtml(item.description, "p");
+			var content = wrapHtml(item.description, "h3");
 			var time = item.pubDate.substring(0, item.pubDate.length - 4);
 			var options = {
 				year: 'numeric', month: 'numeric', day: 'numeric',
