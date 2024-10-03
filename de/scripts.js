@@ -13,7 +13,7 @@ function sleep(ms) {
 
 document.title = "\u200E";
 async function ok() {
-var pjs = "PJS ZIMMER!"
+var pjs = "LeWolfYTs Klubecke!"
 var tx = ""
 for (let i=0; i < pjs.length; i++) {
   tx += pjs[i]
@@ -30,5 +30,5 @@ for (let i=pjs.length; i > -1; i--) {
 }
 }
 new Audio('https://github.com/LeWolfYT/LeWolfYT.github.io/raw/main/startrace.mp3').play();
-setInterval(ok, 11000);
+setInterval(ok, 19000);
 ok();
